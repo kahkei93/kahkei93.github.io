@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kahkei93 - Full Stack Developer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6; 
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        
+        h1 { 
+            font-size: 3rem; 
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .project-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .tech-tag {
+            background: #667eea;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .btn {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-secondary {
+            border: 2px solid #667eea;
+            color: #667eea;
+        }
+        
+        .btn:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>kahkei93</h1>
+            <p class="tagline">Full Stack Developer & IT Student</p>
+        </header>
+        
+        <section class="projects">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>🧋 TehXpress - Milk Tea Ordering System</h3>
+                <p>A full-stack web application for a modern milk tea shop with online ordering and payment system.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/kahkei93/Milk-Tea-Ordering-System" class="btn btn-primary">View on GitHub</a>
+                    <a href="https://github.com/kahkei93/Milk-Tea-Ordering-System/releases" class="btn btn-secondary">Download Project</a>
+                </div>
+            </div>
+            
+            <!-- Project 2 - 你可以后续添加更多项目 -->
+            <div class="project-card">
+                <h3>🚧 More Projects Coming Soon</h3>
+                <p>I'm currently working on new projects to expand my portfolio. Stay tuned!</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/kahkei93" class="btn btn-primary">View My GitHub</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
