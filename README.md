@@ -21,6 +21,14 @@ A responsive online ordering system with user authentication, cart management, a
 - **Tech:** PHP, MySQL, JavaScript, HTML/CSS
 - **🔗 :** [Click to View Project](https://github.com/kahkei93/Milk-Tea-Ordering-System)
 
+### 🚆 Train Booking System - Software Testing
+**Team Project | Java, JUnit, Mockito, JUnitParams**  
+Full software testing lifecycle implementation including test planning, test design, unit testing, and integration testing.
+- **Tech Stack:** Java, JUnit, Mockito, JUnitParams, Software Testing Methodologies
+- **Highlights:** Boundary Value Analysis, Equivalence Partitioning, Mock Testing, Parameterized Testing
+- **🔗 :** [Click to View Project](https://github.com/kahkei93/Train-Booking-System-Testing)
+
+
 ### 🌐 [Personal Portfolio Website](https://kahkei93.github.io)
 My digital portfolio showcasing projects and skills.
 - **Tech:** HTML, CSS, JavaScript
