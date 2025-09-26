@@ -1,6 +1,6 @@
 # Hi, I'm Kah Kei! 👋
 
-I'm a Software Engineering student passionate about creating practical and user-friendly applications. Currently exploring full-stack development, mobile app development, and continuously expanding my technical skills.
+I'm a Software Engineering student passionate about creating user-friendly applications. Currently exploring full-stack development, mobile app development, and continuously expanding my technical skills.
 
 ## 🚀 Skills & Technologies
 - **Languages:** JavaScript, TypeScript, C++, PHP, HTML, CSS
